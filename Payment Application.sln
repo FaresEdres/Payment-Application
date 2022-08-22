@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32616.157
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Payment Application", "Payment Application\Payment Application.vcxproj", "{AA87FA51-BE18-44F2-9C0D-49B6C4FE7D01}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{3A9EFDAB-E654-482E-B0FB-CFFCD1973AA5}"
+	ProjectSection(SolutionItems) = preProject
+		app.c = app.c
+		app.h = app.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Card", "Card", "{439746B4-9D5A-4C33-8632-08238E9CC970}"
+	ProjectSection(SolutionItems) = preProject
+		card.c = card.c
+		card.h = card.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Terminal", "Terminal", "{D0BB78B3-BFE1-41FC-987B-2F677B4792F8}"
+	ProjectSection(SolutionItems) = preProject
+		terminal.c = terminal.c
+		terminal.h = terminal.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Server", "Server", "{135D962B-7BE4-4FC4-9035-90C12D3E320E}"
+	ProjectSection(SolutionItems) = preProject
+		Accounts_DB.txt = Accounts_DB.txt
+		server.c = server.c
+		server.h = server.h
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AA87FA51-BE18-44F2-9C0D-49B6C4FE7D01}.Debug|x64.ActiveCfg = Debug|x64
+		{AA87FA51-BE18-44F2-9C0D-49B6C4FE7D01}.Debug|x64.Build.0 = Debug|x64
+		{AA87FA51-BE18-44F2-9C0D-49B6C4FE7D01}.Debug|x86.ActiveCfg = Debug|Win32
+		{AA87FA51-BE18-44F2-9C0D-49B6C4FE7D01}.Debug|x86.Build.0 = Debug|Win32
+		{AA87FA51-BE18-44F2-9C0D-49B6C4FE7D01}.Release|x64.ActiveCfg = Release|x64
+		{AA87FA51-BE18-44F2-9C0D-49B6C4FE7D01}.Release|x64.Build.0 = Release|x64
+		{AA87FA51-BE18-44F2-9C0D-49B6C4FE7D01}.Release|x86.ActiveCfg = Release|Win32
+		{AA87FA51-BE18-44F2-9C0D-49B6C4FE7D01}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3D201BC4-48AD-4309-B922-84B96EA2352A}
+	EndGlobalSection
+EndGlobal

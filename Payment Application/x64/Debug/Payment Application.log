@@ -1,0 +1,21 @@
+﻿  app.c
+E:\FWD\Payment Application\app.c(13,57): warning C4047: 'function': 'ST_cardData_t *' differs in levels of indirection from 'uint8_t'
+E:\FWD\Payment Application\app.c(13,42): warning C4024: 'getCardHolderName': different types for formal and actual parameter 1
+  card.c
+E:\FWD\Payment Application\card.c(12,2): warning C4013: 'gets' undefined; assuming extern returning int
+E:\FWD\Payment Application\card.c(13,45): warning C4047: 'function': 'const char *' differs in levels of indirection from 'uint8_t'
+E:\FWD\Payment Application\card.c(13,29): warning C4024: 'strlen': different types for formal and actual parameter 1
+E:\FWD\Payment Application\card.c(13,14): warning C4267: '=': conversion from 'size_t' to 'uint8_t', possible loss of data
+E:\FWD\Payment Application\card.c(14,39): warning C4047: '==': 'int' differs in levels of indirection from 'void *'
+E:\FWD\Payment Application\card.c(36,23): warning C4267: '=': conversion from 'size_t' to 'uint8_t', possible loss of data
+E:\FWD\Payment Application\card.c(60,15): warning C4267: '=': conversion from 'size_t' to 'uint8_t', possible loss of data
+  server.c
+E:\FWD\Payment Application\server.c(11,1): warning C4305: 'initializing': truncation from 'double' to 'float'
+E:\FWD\Payment Application\server.c(63,5): warning C4013: 'clear' undefined; assuming extern returning int
+  terminal.c
+E:\FWD\Payment Application\terminal.c(12,2): warning C4013: 'gets' undefined; assuming extern returning int
+E:\FWD\Payment Application\terminal.c(13,28): warning C4267: '=': conversion from 'size_t' to 'uint8_t', possible loss of data
+E:\FWD\Payment Application\terminal.c(43,3): warning C4013: 'exit' undefined; assuming extern returning int
+  Generating Code...
+E:\FWD\Payment Application\server.c(150): warning C4716: 'saveTransaction': must return a value
+  Payment Application.vcxproj -> E:\FWD\Payment Application\x64\Debug\Payment Application.exe
