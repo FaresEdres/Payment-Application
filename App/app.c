@@ -1,6 +1,4 @@
-#include "card.h"
-#include "terminal.h"
-#include "server.h"
+#include "../Server/server.h"
 #include"app.h"
 #include <stdio.h>
 

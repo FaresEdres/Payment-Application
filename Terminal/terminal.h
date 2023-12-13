@@ -1,6 +1,6 @@
 #ifndef terminal
 #define terminal
-#include "card.h"
+#include "../Card/card.h"
 #define STRING_TO_INT    48
 #define INT_TO_TENS      10
 typedef unsigned char uint8_t;

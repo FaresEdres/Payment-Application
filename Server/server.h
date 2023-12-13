@@ -1,6 +1,6 @@
 #ifndef server
 #define server
-#include "terminal.h"
+#include "../Terminal/terminal.h"
 
 
 typedef unsigned long int  uint32_t;

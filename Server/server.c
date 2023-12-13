@@ -1,7 +1,5 @@
 ﻿#include <stdio.h>
 #include "server.h"
-#include "card.h" 
-
 #include <string.h>
 
 int counter=0,accountSearch=0;
