@@ -14,5 +14,4 @@ Handles the processing of card data and transactions. Performs validation of car
 ### Server Section
 Validates account status, performs balance checks, and updates transaction records. Includes steps for account validity, available funds, and updating account balances.
 
-   gcc main.c -o transaction_system
 ![188287991-3477ba03-5504-4d45-a848-fe85dcca22cf](https://github.com/FaresEdres/Payment-Application/assets/88932198/e1403126-9ebe-49f5-a463-7ac3a5a003a6)
